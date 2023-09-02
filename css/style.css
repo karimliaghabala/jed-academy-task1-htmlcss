@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: Montserrat, sans-serif;
 }
-.container{
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -154,10 +154,10 @@
   background-color: white;
 }
 .b-left,
-.b-center{
+.b-center {
   background-color: white;
 }
-.b-right{
+.b-right {
   background-color: #23a6f0;
 }
 
@@ -165,39 +165,39 @@
 
 /*<<<<<<<<<<<<<<<<<<<<<<<<second section start>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
-.section-2{
+.section-2 {
   width: 1052px;
   height: 715px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 160px 0 ;
+  padding: 160px 0;
   gap: 10px;
 }
-.s2-left{
+.s2-left {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-.s2-left>div{
+.s2-left > div {
   width: 94px;
   height: 7px;
-  background-color:#E74040;
+  background-color: #e74040;
 }
-.s2-left>.h1{
+.s2-left > .h1 {
   font-size: 40px;
   font-weight: bold;
 }
-.s2-left>.h6{
+.s2-left > .h6 {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.425);
 }
-.s2-left>a{
+.s2-left > a {
   text-decoration: none;
   color: #23a6f0;
 }
-.s2-right{
+.s2-right {
   display: flex;
   flex-direction: row;
 }
@@ -205,52 +205,52 @@
 /*<<<<<<<<<<<<<<<<<<<<<<<<second section end>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /*<<<<<<<<<<<<<<<<<<<<<<<<third section start>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
-.section-3{
+.section-3 {
   width: 1440px;
   height: 1128px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 112px 0;
-  gap:112px
+  gap: 112px;
 }
 
-.s3-top{
+.s3-top {
   width: 1044px;
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-.s3-top>.h5{
+.s3-top > .h5 {
   color: #23a6f0;
   font-size: 14px;
   font-weight: bold;
 }
-.s3-top>.h1{
+.s3-top > .h1 {
   font-size: 40px;
 }
-.s3-top>.h6{
+.s3-top > .h6 {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.322);
 }
 
-.s3-bottom{
+.s3-bottom {
   display: flex;
   gap: 30px;
 }
-.box1-top{
+.box1-top {
   background-image: url(../images/product-cover1.png);
 }
-.box2-top{
+.box2-top {
   background-image: url(../images/product-cover2.png);
 }
-.box3-top{
+.box3-top {
   background-image: url(../images/product-cover3.png);
 }
-.box4-top{
+.box4-top {
   background-image: url(../images/product-cover4.png);
 }
-.box-img{
+.box-img {
   width: 241px;
   height: 300px;
   background-repeat: no-repeat;
@@ -261,18 +261,17 @@
   justify-content: space-between;
   padding: 20px;
 }
-.box-img>.h6{
+.box-img > .h6 {
   width: 51px;
   height: 24px;
   border-radius: 3px;
-  background: #E74040;
+  background: #e74040;
   margin-right: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
-.box-icons{
+.box-icons {
   width: 241px;
   height: 300px;
   padding: 25px 25px 35px 25px;
@@ -280,29 +279,83 @@
   flex-direction: column;
   gap: 15px;
 }
-.box-icons>.h3{
+.box-icons > .h3 {
   font-size: 16px;
   font-weight: bold;
 }
-.box-icons>.h5{
+.box-icons > .h5 {
   color: rgba(0, 0, 0, 0.432);
 }
-.box-icons>.s-img{
+.box-icons > .s-img {
   width: 83px;
   height: 24px;
 }
-.box-icons>.h4{
+.box-icons > .h4 {
   font-size: 16px;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.418);
 }
-.box-icons>.h4>span{
+.box-icons > .h4 > span {
   color: green;
 }
-.box-icons>.h6>a{
+.box-icons > .h6 > a {
   color: #23a6f0;
   border: 1px solid #23a6f0;
-  padding: 10px 20px ;
+  padding: 10px 20px;
   border-radius: 37px;
   text-decoration: none;
 }
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<third section end>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<fourth section start>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.section-4{
+  width: 1058px;
+  height: 928px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.section-4>.s4-top{
+  width: 1044px;
+  height:44px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.section-4>.s4-top>.h6{
+  color: #23a6f0;
+  font-size: 14px;
+  font-weight: bold;
+}
+.section-4>.s4-top>.h1{
+  font-size: 40px;
+  font-weight: bold;
+}
+.section-4>.s4-top>.h5{
+  color: rgba(0, 0, 0, 0.411);
+}
+.s4-bottom{
+  width: 1050px;
+  height: 378px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:30px;
+}
+.s4-box{
+  width: 508px;
+  height: 378px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 180px 100px 0px 100px;
+  gap:30px ;
+}
+.s4-box>.h4{
+  color: black;
+  font-weight: bold;
+}
+/*<<<<<<<<<<<<<<<<<<<<<<<<fourth section end>>>>>>>>>>>>>>>>>>>>>>>>>*/
