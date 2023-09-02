@@ -358,4 +358,8 @@
   color: black;
   font-weight: bold;
 }
+.s4-box>.h6{
+  color: rgba(0, 0, 0, 0.438);
+  text-align: center;
+}
 /*<<<<<<<<<<<<<<<<<<<<<<<<fourth section end>>>>>>>>>>>>>>>>>>>>>>>>>*/
