@@ -270,6 +270,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
 }
 .box-icons {
   width: 241px;
@@ -310,56 +313,161 @@
 
 /*<<<<<<<<<<<<<<<<<<<<<<<<fourth section start>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
-.section-4{
+.section-4 {
   width: 1058px;
   height: 928px;
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
-.section-4>.s4-top{
+.section-4 > .s4-top {
   width: 1044px;
-  height:44px;
+  height: 44px;
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-.section-4>.s4-top>.h6{
+.section-4 > .s4-top > .h6 {
   color: #23a6f0;
   font-size: 14px;
   font-weight: bold;
 }
-.section-4>.s4-top>.h1{
+.section-4 > .s4-top > .h1 {
   font-size: 40px;
   font-weight: bold;
 }
-.section-4>.s4-top>.h5{
+.section-4 > .s4-top > .h5 {
   color: rgba(0, 0, 0, 0.411);
 }
-.s4-bottom{
+.s4-bottom {
   width: 1050px;
   height: 378px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap:30px;
+  gap: 30px;
 }
-.s4-box{
+.s4-box {
   width: 508px;
   height: 378px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 180px 100px 0px 100px;
-  gap:30px ;
+  gap: 30px;
 }
-.s4-box>.h4{
+.s4-box > .h4 {
   color: black;
   font-weight: bold;
 }
-.s4-box>.h6{
+.s4-box > .h6 {
   color: rgba(0, 0, 0, 0.438);
   text-align: center;
 }
 /*<<<<<<<<<<<<<<<<<<<<<<<<fourth section end>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<fifth section start>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.section-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-5 > .s5-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.section-5 > .s5-text > .h6 {
+  font-size: 14px;
+  color: #23a6f0;
+  font-weight: bold;
+}
+.section-5 > .s5-text > .h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.section-5 > .s5-text > .h4 {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.459);
+  text-align: center;
+}
+.s5-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 150px 0;
+}
+.s5-input > input {
+  width: 570px;
+  height: 58px;
+}
+.s5-input > .bottom {
+  width: 117px;
+  height: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #23a6f0;
+  border-radius: 0 5px 5px 0;
+}
+.s5-input > .bottom > a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<fifth section end>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<sixth section start>>>>>>>>>>>>>>>>>>>>>>>>*/
+  .section-6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .section-6>.s6-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 338px;
+    background-color: #252b42;
+    padding: 0 150px;
+  }
+  .s6-box>.h1{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  .s6-box>.h6{
+    font-size: 14px;
+    color: white;
+    
+  }
+  .box1-6{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  .box1-6>img{
+    width: 112px;
+    height: 24px;
+  }
+  .s6-box>ul>li{
+    list-style: none ;
+    padding: 10px;
+  }
+  .s6-box>ul>li>a{
+    color: white;
+    text-decoration: none;
+  }
+
+
+  .s6-bottom{
+    margin: 50px;
+  }
+/*<<<<<<<<<<<<<<<<<<<<<<<<sixth section end>>>>>>>>>>>>>>>>>>>>>>>>>*/
